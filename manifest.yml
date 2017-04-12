@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: MyTODO
+  host: MyTODO999
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-z8
